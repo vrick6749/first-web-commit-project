@@ -1,8 +1,24 @@
 p{
     color: red;
 }
-div.containerblue{
-height: 300px;
-width: 300px;
-background-color: aquamarine;
+
+.container{
+    display: grid;
+    grid-template-columns: 100px auto 100px;
+    grid-template-rows: 300px auto 150px;
+}
+.item1{
+    background-color: blueviolet;
+    height: auto;
+    width: auto;
+}
+.item2{
+    height: auto;
+    width: auto;
+    background-color: aqua;
+}
+.item3{
+    height: auto;
+    width: auto;
+    background-color: brown;
 }
