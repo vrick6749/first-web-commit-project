@@ -1,11 +1,11 @@
 .Container1{
-    display: grid;
-    grid-template-columns: 70% 30%;
+    display: grid; /*necessary to place this for a container to uphold the grid feature*/
+    grid-template-columns: 70% 30%; /*The grid must be defined in terms of sizing before it can be used any child element will adhere to the number or sizing of the element and will automatically wrap around the given dimensions*/
 }
 
 .Container1 > div{
     background:rgb(179, 107, 107);
 }
-.Container1 > div:nth-child(odd){
-    background-color: aqua;
+.Container1 > div:nth-child(odd){/*This allows for the selection of every second element post the container div background and give it a different color*/
+    background-color: aqua; 
 }
