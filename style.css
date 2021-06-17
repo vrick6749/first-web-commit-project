@@ -5,6 +5,13 @@
     grid-template-columns: repeat(3, 1fr);/*This is the cleaner way to do the syntax above*/
 
     grid-gap:1em; /*This creates spacing between the elements of each container in the grid ACTS LIKE PADDING*/
+
+    grid-template-rows: auto;
+
+    grid-template-areas: 
+    "header header header"
+    "main main ."
+    ". . footer";
 }
 
 .Container1 > div{
