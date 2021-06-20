@@ -25,6 +25,12 @@
 .item1{
  color: red; 
  grid-area: header;
+ 
+ height: 200px;
+ width: 600px;
+ justify-self: center;
+ align-self: center;
+ /*FOR BOTH justify and align self  you can also use place-self as a short hand e.g. place self:center stretch */
 }
 
 .item3{
