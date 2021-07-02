@@ -33,6 +33,11 @@
  /*FOR BOTH justify and align self  you can also use place-self as a short hand e.g. place self:center stretch */
 }
 
+.childdiv{
+    height: 200px;
+    width:200px;
+    background-color: beige;
+}
 .item3{
     grid-area: main;
 }
