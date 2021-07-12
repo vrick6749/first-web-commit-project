@@ -1,8 +1,3 @@
-function setup(){
-    console.log(x);
+var x= "joe"
 
-    var x = 100;
-
-    console.log(x);
-}
-setup()
+console.log(x)
