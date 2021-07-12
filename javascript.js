@@ -1,8 +1,11 @@
-function setup(){
-    console.log(x);
+let x= {name:"JOHN", lastname:"DOE"}
+console.log(x.name)
 
-    var x = 100;
 
-    console.log(x);
+let y =["apple","mango", "bannana"]
+
+y.forEach(item => func(item))
+
+function func(item){
+    console.log("Happy "+ item + " day")
 }
-setup()
