@@ -15,3 +15,6 @@
 // }
 
 // functest(6,5)
+function gettime(){
+    document.getElementById('time').innerHTML=Date()
+}
