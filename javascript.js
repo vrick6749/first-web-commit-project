@@ -10,8 +10,8 @@
 //     console.log("Happy "+ item + " day")
 // }
 
-function functest(p1,p2){
-    return (p1>5 ? console.log(p1*p2) : console.log("the first number must be higher than 5"))
-}
+// function functest(p1,p2){
+//     return (p1>5 ? console.log(p1*p2) : console.log("the first number must be higher than 5"))
+// }
 
-functest(6,5)
+// functest(6,5)
