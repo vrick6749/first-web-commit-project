@@ -23,4 +23,4 @@
 
 // console.log()
 let x= [2,5,8,3,6,35]
-document.getElementById("array_of_numbers").document.write(x)
+document.getElementById("array_of_numbers").innerHTML=x
