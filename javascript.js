@@ -23,4 +23,7 @@
 
 // console.log()
 let x= [2,5,8,3,6,35]
-document.getElementById("array_of_numbers").innerHTML=x
+// document.getElementById("array_of_numbers").innerHTML=x
+
+x.sort((a,b)=> a-b)
+console.log(x)
