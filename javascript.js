@@ -15,10 +15,12 @@
 // }
 
 // functest(6,5)
-let x = ""
-function gettime(){
-    document.getElementById('time').innerHTML=Date()
-}
+// let x = ""
+// function gettime(){
+//     document.getElementById('time').innerHTML=Date()
+// }
 
 
-console.log()
+// console.log()
+let x= [2,5,8,3,6,35]
+document.getElementById("array_of_numbers").document.write(x)
