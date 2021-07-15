@@ -21,9 +21,17 @@
 // }
 
 
-// console.log()
-let x= [2,5,8,3,6,35]
-// document.getElementById("array_of_numbers").innerHTML=x
+// // console.log()
+// let x= [2,5,8,3,6,35]
+// // document.getElementById("array_of_numbers").innerHTML=x
 
-x.sort((a,b)=> a-b)
-console.log(x)
+// x.sort((a,b)=> a-b)
+// console.log(x)
+ const x = ["a", "b","c"]
+let text = "";
+ x.forEach(func)
+
+function func(alpha, beta, feta){
+    text+= alpha + " This is the value" + beta + " This is the beta" + ""
+}
+console.log(text)
