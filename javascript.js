@@ -11,3 +11,7 @@
 
 
 // console.log(`Welcome ${x.firstname} ${x.lastName}`)
+let car = ["BMW", "Mercedes", "Toyota"]
+for(let i=0; i<car.length; i++){
+    console.log(car[i])
+}
