@@ -27,3 +27,10 @@
 //     console.log("ME")
 //     x++
 // } 
+
+
+disisafunc=()=>{
+    console.log("Hello")
+}
+
+disisafunc()
