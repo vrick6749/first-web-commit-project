@@ -46,3 +46,9 @@ class Peerson{
 let Peerson1= new Peerson("Carl", "Saunders", 14)
 
 console.log(Peerson1)
+
+let x = Peerson1
+
+x.age = 3
+console.log(x)
+console.log(Peerson1)
