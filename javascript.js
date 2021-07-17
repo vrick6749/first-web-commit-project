@@ -29,8 +29,20 @@
 // } 
 
 
-disisafunc=()=>{
-    console.log("Hello")
+// disisafunc=()=>{
+//     console.log("Hello")
+// }
+
+// disisafunc()
+
+class Peerson{
+    constructor(firstname,lastname,age){
+        this.firstname = firstname;
+        this.lastname = lastname;
+        this.age = age;
+    }
 }
 
-disisafunc()
+let Peerson1= new Peerson("Carl", "Saunders", 14)
+
+console.log(Peerson1)
