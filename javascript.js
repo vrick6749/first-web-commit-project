@@ -35,20 +35,36 @@
 
 // disisafunc()
 
-class Peerson{
-    constructor(firstname,lastname,age){
-        this.firstname = firstname;
-        this.lastname = lastname;
-        this.age = age;
+// class Peerson{
+//     constructor(firstname,lastname,age){
+//         this.firstname = firstname;
+//         this.lastname = lastname;
+//         this.age = age;
+//     }
+// }
+
+// let Peerson1= new Peerson("Carl", "Saunders", 14)
+
+// console.log(Peerson1)
+
+// let x = Peerson1
+
+// x.age = 3
+// console.log(x)
+// console.log(Peerson1)
+
+
+class car{
+    constructor(name,model,yearofmanufacture){
+        this.name = name;
+        this.model = model;
+        this.yearofmanufacture =yearofmanufacture;
     }
 }
 
-let Peerson1= new Peerson("Carl", "Saunders", 14)
+let model1= new car("Ford", "Mustang", 2009)
+let date = new Date()
 
-console.log(Peerson1)
+let age = date.getFullYear() - model1.yearofmanufacture
 
-let x = Peerson1
-
-x.age = 3
-console.log(x)
-console.log(Peerson1)
+console.log(age)
