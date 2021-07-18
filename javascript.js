@@ -54,24 +54,21 @@
 // console.log(Peerson1)
 
 
-class car{
-    constructor(name,model,yearofmanufacture){
+class user {
+    constructor(name,age){
         this.name = name;
-        this.model = model;
-        this.yearofmanufacture =yearofmanufacture;
-    }
-    fullage(){
-        let date= new Date();
 
-        return  date.getFullYear() -this.yearofmanufacture
+        this.age = age;
+    }
+    get fulldetail(){
+        return console.log(`This is ${this.name} who is  ${this.age} years old`)
+    }
+    set age(value){
+        this.age= value
     }
 }
 
-let model1= new car("Ford", "Mustang", 2009)
-// let date = new Date()
 
-// let age = date.getFullYear() - model1.yearofmanufacture
+let x = new user("laura", 18)
 
-// console.log(age)
-
-console.log(`The age of this car is ${model1.fullage()} years old`)
+console.log(x)
