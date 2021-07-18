@@ -53,22 +53,17 @@
 // console.log(x)
 // console.log(Peerson1)
 
-
-class user {
-    constructor(name,age){
-        this.name = name;
-
-        this.age = age;
+class Person{
+    constructor(firstname,lastname){
+        this.firstname=firstname;
+        this.lastname=lastname
     }
-    get fulldetail(){
-        return console.log(`This is ${this.name} who is  ${this.age} years old`)
-    }
-    set age(value){
-        this.age= value
+    get fullname(){
+        let _fullname= `${this.firstname} ${this.lastname}`
+        return _fullname
     }
 }
 
+let x = new Person("Laura", "Cataldi")
 
-let x = new user("laura", 18)
-
-console.log(x)
+console.log(x.fullname)
