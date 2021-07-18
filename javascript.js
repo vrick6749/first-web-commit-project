@@ -53,17 +53,34 @@
 // console.log(x)
 // console.log(Peerson1)
 
-class Person{
-    constructor(firstname,lastname){
-        this.firstname=firstname;
-        this.lastname=lastname
-    }
-    get fullname(){
-        let _fullname= `${this.firstname} ${this.lastname}`
-        return _fullname
-    }
+// class Person{
+//     constructor(firstname,lastname){
+//         this.firstname=firstname;
+//         this.lastname=lastname
+//     }
+//     get fullname(){
+//         let _fullname= `${this.firstname} ${this.lastname}`
+//         return _fullname
+//     }
+// }
+
+// let x = new Person("Laura", "Cataldi")
+
+// console.log(x.fullname)
+
+// let x = [1,2,3,4,"string1","string2","string3"]
+
+// console.log(typeof(x[5]))
+// let x = -15
+
+// let xstringsplit= x.toString().split("")
+// xstringsplit.length > 0 ? console.log(xstringsplit): console.log("Yikes");
+
+
+function digitalroot(n){
+    let numberstring = n.toString()
+    let array = numberstring.split("")
+    let sum = []
+    array.length> 1? console.log(array.reduce(function(a,b){return a+b;},0)): console.log("No");
 }
-
-let x = new Person("Laura", "Cataldi")
-
-console.log(x.fullname)
+console.log(digitalroot(123))
