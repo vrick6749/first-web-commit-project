@@ -60,11 +60,18 @@ class car{
         this.model = model;
         this.yearofmanufacture =yearofmanufacture;
     }
+    fullage(){
+        let date= new Date();
+
+        return  date.getFullYear() -this.yearofmanufacture
+    }
 }
 
 let model1= new car("Ford", "Mustang", 2009)
-let date = new Date()
+// let date = new Date()
 
-let age = date.getFullYear() - model1.yearofmanufacture
+// let age = date.getFullYear() - model1.yearofmanufacture
 
-console.log(age)
+// console.log(age)
+
+console.log(`The age of this car is ${model1.fullage()} years old`)
