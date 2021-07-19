@@ -88,6 +88,17 @@
 // }
 
 // console.log(typeof(x))
+
+// Given two arrays a and b write a function comp(a, b) (orcompSame(a, b)) that checks whether the two arrays have the "same" elements, with the same multiplicities. "Same" means, here, that the elements in b are the elements in a squared, regardless of the order.
+
+// describe("Tests", () => {
+//     it("test", () => {
+//   a1 = [121, 144, 19, 161, 19, 144, 19, 11];
+//   a2 = [11*11, 121*121, 144*144, 19*19, 161*161, 19*19, 144*144, 19*19];
+//   Test.assertEquals(comp(a1, a2), true);
+//     });
+//   });
+  
 let v = [13,2,5,1]
 let x = [121,3,25,1]
 
