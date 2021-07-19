@@ -77,10 +77,15 @@
 // xstringsplit.length > 0 ? console.log(xstringsplit): console.log("Yikes");
 
 
-function digitalroot(n){
-    let numberstring = n.toString()
-    let array = numberstring.split("")
-    let sum = []
-    array.length> 1? console.log(array.reduce(function(a,b){return a+b;},0)): console.log("No");
+let x =163888
+function myfunc(a,b){
+    return a+b
 }
-console.log(digitalroot(123))
+
+while (x>9){
+let y = x.toString().split("").map(x => parseInt(x)).reduce(myfunc)
+x=y
+}
+
+console.log(typeof(x))
+
