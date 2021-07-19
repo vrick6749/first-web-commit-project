@@ -96,5 +96,5 @@ let y = x.map(a=> Math.round((Math.sqrt(a))));
 
 y.forEach( ynumber => v.includes(ynumber)? container.push(1): container.push(0)) 
 
-console.log(container.includes(0)? false : true)
+container.includes(0)? false : true
 
