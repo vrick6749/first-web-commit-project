@@ -77,15 +77,24 @@
 // xstringsplit.length > 0 ? console.log(xstringsplit): console.log("Yikes");
 
 
-let x =163888
-function myfunc(a,b){
-    return a+b
-}
+// let x =163888
+// function myfunc(a,b){
+//     return a+b
+// }
 
-while (x>9){
-let y = x.toString().split("").map(x => parseInt(x)).reduce(myfunc)
-x=y
-}
+// while (x>9){
+// let y = x.toString().split("").map(x => parseInt(x)).reduce(myfunc)
+// x=y
+// }
 
-console.log(typeof(x))
+// console.log(typeof(x))
+let v = [13,2,5,1]
+let x = [121,3,25,1]
+
+let container = []
+let y = x.map(a=> Math.round((Math.sqrt(a))));
+
+y.forEach( ynumber => v.includes(ynumber)? container.push(1): container.push(0)) 
+
+console.log(container.includes(0)? false : true)
 
