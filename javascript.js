@@ -112,7 +112,7 @@
 
 // Solving another KATA
 
-// strarr = ["tree", "foling", "trashy", "blue", "abcdef", "uvwxyz"]
+strarr = ["tree", "foling", "trashy", "blue", "abcdef", "uvwxyz"]
 
 // let emptyarr = []
 // for (let x = 0; x<strarr.length-1; x++){
@@ -121,3 +121,6 @@
 // const lengths = emptyarr.map(x => x.length)
 //  emptyarr[lengths.indexOf(Math.max(...lengths))]
 // DID NOT READ REQUIREMENTS CAUSED BUG, missed out on second variable which dictates the numbers of concatenation
+let k =3
+
+for let x
