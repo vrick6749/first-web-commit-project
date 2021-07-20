@@ -99,13 +99,23 @@
 //     });
 //   });
   
-let v = [13,2,5,1]
-let x = [121,3,25,1]
+// let v = [13,2,5,1]
+// let x = [121,3,25,1]
 
-let container = []
-let y = x.map(a=> Math.round((Math.sqrt(a))));
+// let container = []
+// let y = x.map(a=> Math.round((Math.sqrt(a))));
 
-y.forEach( ynumber => v.includes(ynumber)? container.push(1): container.push(0)) 
+// y.forEach( ynumber => v.includes(ynumber)? container.push(1): container.push(0)) 
 
-container.includes(0)? false : true
+// container.includes(0)? false : true
 
+
+// Solving another KATA
+
+strarr = ["tree", "foling", "trashy", "blue", "abcdef", "uvwxyz"]
+
+let emptyarr = []
+for (let x = 0; x<strarr.length-1; x++){
+    emptyarr.push(strarr[x].concat(strarr[x+1]))
+}
+console.log(emptyarr)
