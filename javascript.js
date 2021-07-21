@@ -122,5 +122,13 @@ strarr = ["tree", "foling", "trashy", "blue", "abcdef", "uvwxyz"]
 //  emptyarr[lengths.indexOf(Math.max(...lengths))]
 // DID NOT READ REQUIREMENTS CAUSED BUG, missed out on second variable which dictates the numbers of concatenation
 let k =3
+let word = []
+let counts = []
+for (let i =0 ; i<strarr.length; i++){
 
-for let x
+   let cuttedword = strarr.slice(i,i+k).join("")
+   let cuttedwordindexcount = strarr.slice(i,i+k).join("").length
+   list.push(cuttedword) 
+   counts.push(cuttedwordindexcount)
+}
+)
