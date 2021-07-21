@@ -132,5 +132,5 @@ for (let i =0 ; i<strarr.length; i++){
    counts.push(cuttedwordindexcount)
 }
 
-console.log(Math.max(...counts))
-// console.log(`${word[counts.indexOf(Math.max(counts))]}`)
+
+console.log(`${word[counts.indexOf(Math.max(...counts))]}`)
