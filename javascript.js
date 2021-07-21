@@ -128,7 +128,9 @@ for (let i =0 ; i<strarr.length; i++){
 
    let cuttedword = strarr.slice(i,i+k).join("")
    let cuttedwordindexcount = strarr.slice(i,i+k).join("").length
-   list.push(cuttedword) 
+   word.push(cuttedword) 
    counts.push(cuttedwordindexcount)
 }
-)
+
+console.log(Math.max(...counts))
+// console.log(`${word[counts.indexOf(Math.max(counts))]}`)
