@@ -20,8 +20,17 @@
 // console.log(mycar)
 
 
-setTimeout(myFunc,5000);
-console.log("Hello")
-function myFunc(){
-   console.log("Hi")
+// setTimeout(myFunc,5000);
+// console.log("Hello")
+// function myFunc(){
+//    console.log("Hi")
+// }
+
+
+function myFunc2(value){
+   console.log(value)
 }
+function myFunc1(a,b, callback){
+   callback(a+b)
+}
+myFunc1(1,4,myFunc2)
