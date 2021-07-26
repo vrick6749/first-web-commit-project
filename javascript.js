@@ -26,11 +26,10 @@
 //    console.log("Hi")
 // }
 
+setTimeout(myFunc1, 5000)
 
-function myFunc2(value){
-   console.log(value)
+function myFunc1(){
+   console.log("Bye")
 }
-function myFunc1(a,b, callback){
-   callback(a+b)
-}
-myFunc1(1,4,myFunc2)
+
+console.log("Hello")
