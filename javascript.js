@@ -25,11 +25,8 @@
 // function myFunc(){
 //    console.log("Hi")
 // }
-
-setTimeout(myFunc1, 5000)
-
-function myFunc1(){
-   console.log("Bye")
-}
-
-console.log("Hello")
+ let button = document.getElementById("mybttn")
+   button.addEventListener("click", function(){
+      console.log("Hello")
+   })
+ console.log(button)
