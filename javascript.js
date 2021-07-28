@@ -25,8 +25,19 @@
 // function myFunc(){
 //    console.log("Hi")
 // }
- let button = document.getElementById("mybttn")
-   button.addEventListener("click", function(){
-      console.log("Hello")
-   })
- console.log(button)
+
+
+
+
+
+
+
+
+//  let button = document.getElementById("mybttn")
+//    button.addEventListener("click", function(){
+//       console.log("Hello")
+//    })
+//  console.log(button)
+let string = ["w","O","w"]
+
+let newword= string.map(x=>{console.log(x)})
