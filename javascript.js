@@ -38,6 +38,13 @@
 //       console.log("Hello")
 //    })
 //  console.log(button)
-let string = ["w","O","w"]
+let string = ["w","O","R","O","o", "R"]
+console.log(stringconverter("PoppppPPY"))
 
-let newword= string.map(x=>{console.log(x)})
+function stringconverter(string){
+let stringarr = string.split("")
+let newstring = []
+
+for (let i in stringarr){stringarr[i]=== stringarr[i].toUpperCase()? newstring.push(" ", stringarr[i]):newstring.push(stringarr[i])}
+return newstring.join("").trim()
+}
