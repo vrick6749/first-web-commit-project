@@ -48,3 +48,16 @@
 // for (let i in stringarr){stringarr[i]=== stringarr[i].toUpperCase()? newstring.push(" ", stringarr[i]):newstring.push(stringarr[i])}
 // return newstring.join("").trim()
 // }
+
+// PROMISES
+
+let promize = new Promise((resolve, reject)=>{
+    let a = 1+1
+    if(a == 2){
+        resolve('succcess')
+    } else{
+        reject('Failed')
+    }
+})
+
+console.log(promize)
