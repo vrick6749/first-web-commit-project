@@ -38,13 +38,13 @@
 //       console.log("Hello")
 //    })
 //  console.log(button)
-let string = ["w","O","R","O","o", "R"]
-console.log(stringconverter("PoppppPPY"))
+// let string = ["w","O","R","O","o", "R"]
+// console.log(stringconverter("PoppppPPY"))
 
-function stringconverter(string){
-let stringarr = string.split("")
-let newstring = []
+// function stringconverter(string){
+// let stringarr = string.split("")
+// let newstring = []
 
-for (let i in stringarr){stringarr[i]=== stringarr[i].toUpperCase()? newstring.push(" ", stringarr[i]):newstring.push(stringarr[i])}
-return newstring.join("").trim()
-}
+// for (let i in stringarr){stringarr[i]=== stringarr[i].toUpperCase()? newstring.push(" ", stringarr[i]):newstring.push(stringarr[i])}
+// return newstring.join("").trim()
+// }
