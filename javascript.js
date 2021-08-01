@@ -52,12 +52,17 @@
 // PROMISES
 
 let promize = new Promise((resolve, reject)=>{
-    let a = 1+1
+    let a = 1+2
     if(a == 2){
         resolve('succcess')
     } else{
         reject('Failed')
     }
+})
+promize.then((message)=>{
+    console.log(`this is the resolve `+ message)
+}).catch((message)=>{
+    console.log(`This is the catch ` +message)
 })
 
 console.log(promize)
