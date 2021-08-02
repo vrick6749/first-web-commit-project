@@ -68,30 +68,44 @@
 // console.log(promize)
 
 
-// const userLeft = false;
-// const userWatchingCatMeme= false;
+const userLeft = false;
+const userWatchingCatMeme= true;
 
-// function watchTutorialCallback(callback, errorCallback){
-//     if ()
-// }
-
-
-
-
-
-
-
-
-class Person {
-    constructor(name, age){
-        this._name= name,
-        this._age = age
-    }
-    fullname(){
-       console.log( this._name)
+function watchTutorialCallback(callback, errorCallback){
+    if (userLeft){
+        errorCallback({
+            name: 'User Left',
+            message:`:(`
+        })
+    } else if(userWatchingCatMeme){
+        errorCallback({
+            name:"User Watching Cat Meme",
+            message:"WebDevSimply <Cat"
+        })
+    } else{
+        callback("Thumbs Up")
     }
 }
 
-let student1 = new Person("John", 3)
+watchTutorialCallback((message)=>{console.log('success: '+ message)},(error)=> {
+    console.log(error.name + ' ' +error.message)
+})
 
-student1.fullname()
+
+
+
+
+
+// class Person {
+//     constructor(name, age){
+//         this._name= name,
+//         this._age = age
+//     }
+//     fullname(){
+//        console.log( this._name)
+//     }
+// }
+
+// let student1 = new Person("John", 3)
+
+// student1.fullname()
