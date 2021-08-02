@@ -66,3 +66,32 @@
 // })
 
 // console.log(promize)
+
+
+// const userLeft = false;
+// const userWatchingCatMeme= false;
+
+// function watchTutorialCallback(callback, errorCallback){
+//     if ()
+// }
+
+
+
+
+
+
+
+
+class Person {
+    constructor(name, age){
+        this._name= name,
+        this._age = age
+    }
+    fullname(){
+       console.log( this._name)
+    }
+}
+
+let student1 = new Person("John", 3)
+
+student1.fullname()
