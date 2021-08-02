@@ -68,28 +68,28 @@
 // console.log(promize)
 
 
-const userLeft = false;
-const userWatchingCatMeme= true;
+// const userLeft = false;
+// const userWatchingCatMeme= true;
 
-function watchTutorialCallback(callback, errorCallback){
-    if (userLeft){
-        errorCallback({
-            name: 'User Left',
-            message:`:(`
-        })
-    } else if(userWatchingCatMeme){
-        errorCallback({
-            name:"User Watching Cat Meme",
-            message:"WebDevSimply <Cat"
-        })
-    } else{
-        callback("Thumbs Up")
-    }
-}
+// function watchTutorialCallback(callback, errorCallback){
+//     if (userLeft){
+//         errorCallback({
+//             name: 'User Left',
+//             message:`:(`
+//         })
+//     } else if(userWatchingCatMeme){
+//         errorCallback({
+//             name:"User Watching Cat Meme",
+//             message:"WebDevSimply <Cat"
+//         })
+//     } else{
+//         callback("Thumbs Up")
+//     }
+// }
 
-watchTutorialCallback((message)=>{console.log('success: '+ message)},(error)=> {
-    console.log(error.name + ' ' +error.message)
-})
+// watchTutorialCallback((message)=>{console.log('success: '+ message)},(error)=> {
+//     console.log(error.name + ' ' +error.message)
+// })
 
 
 
@@ -109,3 +109,15 @@ watchTutorialCallback((message)=>{console.log('success: '+ message)},(error)=> {
 // let student1 = new Person("John", 3)
 
 // student1.fullname()
+
+
+// function greeting(name) {
+//     alert('Hello ' + name);
+//   }
+  
+//   function processUserInput(callback) {
+//     var name = prompt('Please enter your name.');
+//     callback(name);
+//   }
+  
+//   processUserInput(greeting);
