@@ -121,3 +121,11 @@
 //   }
   
 //   processUserInput(greeting);
+let newArray =[1,2,3,4,5,6,7]
+function isOdd(x){
+ return x%2 !=0
+}
+
+let allOdds =newArray.filter(isOdd)
+
+console.log(allOdds)
